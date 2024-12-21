@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Search Student</h1>
+    </header>
+
+    <div class="container">
+        <h2>Find a Student</h2>
+        <form id="searchStudentForm">
+            <div>
+                <label for="searchRegNumber">Register Number</label>
+                <input type="text" id="searchRegNumber" name="searchRegNumber" placeholder="Enter register number to search" required>
+            </div>
+            <button type="submit">Search</button>
+        </form>
+
+        <div id="searchResult" style="margin-top: 2rem; display: none;">
+            <h3>Search Result:</h3>
+            <p id="resultMessage">No student found.</p>
+        </div>
+    </div>
+
+    <script src="searchStudentScript.js"></script>
+</body>
+</html>

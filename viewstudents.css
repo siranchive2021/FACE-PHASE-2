@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background: #4b6cb7;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 5% auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+#studentsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#studentsTable th, #studentsTable td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+#studentsTable th {
+    background-color: #4b6cb7;
+    color: white;
+}
+
+#studentsTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#studentsTable tr:hover {
+    background-color: #f1f1f1;
+}
